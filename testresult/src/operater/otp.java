@@ -5,6 +5,7 @@ public class otp {
 		// Arethmatic Operators
 		int A =10;
 		int B =20;
+
 		int C = A+B;
 		System.out.println(C);
 		
@@ -17,15 +18,13 @@ public class otp {
 		int T = A/B;
 		System.out.println(T);
 		
-		System.out.println(++A);
-		System.out.println(A++);
 		
 		// Increment & Decrement
 		int d = A++ + A++ + ++A + A++;
 		       // 10 + 11 +  13 + 13
 		       // 11   12    13   13
-		    System.out.println("A="+A);
-		    System.out.println("B="+B);
+		    System.out.println("d="+d);
+		  
 		
 		    //comparison operator
 		    // < > = <= >=
@@ -56,7 +55,7 @@ public class otp {
             System.out.println(false && false);
             
             
-            System.out.println("A=+2");
+            System.out.println(A=+2);
 	}
 
 	
