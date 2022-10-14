@@ -5,7 +5,7 @@ public class loopdemo {
 	public static void main(String[] args) {
 		// 3 loop\ while , do while , for
 		
-		int i = 0;
+	int i = 0;
 		while (i<10) {
 			System.out.println(i);
 		    i++;
@@ -15,9 +15,11 @@ public class loopdemo {
         	do {
         		System.out.println(p);
         		p++;
-        	}while (p>20); 
-        		
-        	}
-	}
+        	}while (p<20); 
+	}}
+
+	
+	
+
 
 
